@@ -1,4 +1,4 @@
-from numer_transformations import total_sum, minimum, maximum, biggest_difference, longest_word, shortest_word
+from number_transformations import total_sum, minimum, maximum, biggest_difference
 
 # TODO: write tests for each function
 

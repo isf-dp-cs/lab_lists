@@ -1,7 +1,6 @@
 # Word Exercises
 
-Answer the following questions (or at least as many as you can figure out) in this document. 
-
+✏️ **Answer the following questions by analyzing `words_100k.txt` using `word_finder.py`**
 
 ## 1. What is the longest word?
 

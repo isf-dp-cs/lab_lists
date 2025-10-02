@@ -33,18 +33,3 @@ def get_words_ending(data, string):
         if string == word[starting_index:] :
             words_ending.append(word)
     return words_ending
-
-def get_unique_words(data): 
-    '''Returns a list of words that include unique letters'''
-
-    words_unique = []
-    for word in data:
-        has_duplicates = False 
-        for i in range(len(word)):
-            for j in range(i + 1, len(word)):
-                if word[i] == word[j]:
-                    has_duplicates = True
-        if has_duplicates == False:
-            words_unique.append(word)
-        
-    return words_unique
