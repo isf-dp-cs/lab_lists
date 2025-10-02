@@ -8,20 +8,12 @@ def total_sum(data):
 
 def minimum(data):
     '''Returns the smallest number in data'''
-    min = data[0]
-    for num in data:
-        if num < min:
-            min = num
-    return min
+    return 
 
 
 def maximum(data):
     '''Returns the smallest number in data'''
-    min = data[0]
-    for num in data:
-        if num < min:
-            min = num
-    return min
+    return 
 
 def biggest_difference(data):
     '''Given an array length 1 or more of ints, 
