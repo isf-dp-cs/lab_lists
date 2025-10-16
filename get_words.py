@@ -1,7 +1,7 @@
-# word_transformations.py
+# get_words.py.py
 
 def get_word_list(file):
-    """Returns a list of words without the newline charachter"""
+    """Reads the file and returns a list of all the words in the file without the newline character."""
 
     return 
 
@@ -31,7 +31,7 @@ if __name__ == '__main__':
 
     word_list = get_word_list("words_100k.txt")
 
-    # TODO 1) What is the distrubtion of number of words for all lengths of words in the list? 
+    # TODO 1) What is the distribution of number of words for all lengths of words in the list? 
     print("\n--TODO 1")
 
 
