@@ -11,6 +11,14 @@ def contains(num_list, num):
  
     return 
 
+def reverse_list(num_list):
+    '''Returns the num_list with each element reversed. 
+    
+    You may not create a new empty list. You cannot use append(). 
+    '''
+ 
+    return 
+
 def count(num_list, num):
     '''Returns a count of how many times num appears in num_list.'''
  
