@@ -2,7 +2,9 @@
 
 
 def total_sum(num_list):
-    '''Returns sum of numbers in num_list'''
+    '''Returns sum of numbers in num_list
+    
+        You may not use sum()'''
  
     return 
  
@@ -14,24 +16,32 @@ def contains(num_list, num):
 def reverse_list(num_list):
     '''Returns the num_list with each element reversed. 
     
-    You may not create a new empty list. You cannot use append(). 
+    You may not create a new empty list. You may not use append().
+    Be sure to practice looping and setting specific items by index.
     '''
  
     return 
 
 def count(num_list, num):
-    '''Returns a count of how many times num appears in num_list.'''
+    '''Returns a count of how many times num appears in num_list.
+    
+        You may not use len()'''
  
     return
 
 def minimum(num_list):
-    '''Returns the smallest number in num_list'''
+    '''Returns the smallest number in num_list
+    
+        You may not use min()'''
 
     return 
 
 def maximum(num_list):
-    '''Returns the smallest number in num_list'''
+    '''Returns the smallest number in num_list
+        
+        You may not use max()'''
     
+        
     return  
 
 def biggest_difference(num_list):
