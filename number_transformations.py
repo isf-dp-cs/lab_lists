@@ -7,7 +7,23 @@ def total_sum(num_list):
     for num in num_list:
         sum += num
     return sum
+
+def reverse_list(num_list):
+    '''Returns the num_list with each element reversed. 
+    
+    You may not create a new empty list. You may not use append().
+    Be sure to practice looping and setting specific items by index.
+    '''
  
+    for i in range(len(num_list)//2):       
+        temp_left = num_list[i]
+        temp_right = num_list[-(i+1)]
+        
+        num_list[i] = temp_right
+        num_list[-(i+1)] = temp_left
+
+    return num_list
+
 
 def minimum(num_list):
     '''Returns the smallest number in num_list'''
